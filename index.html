@@ -1,19 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Xhunn Raymundo Web Portfolio</title>
-	<link rel="stylesheet" href="./assets/styles/style.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Xhunn Raymundo Web Portfolio</title>
 
-	<!-- jQuery -->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<!-- Popper.js -->
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-	<!-- Bootstrap -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-</body>
+		<!-- Bootstrap CDN -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+		<!-- AOS CDN -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+		<!-- CSS Document -->
+		<link rel="stylesheet" href="./assets/styles/style.css">
+
+		<!-- Google Fonts B612 -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=B612:wght@700&display=swap" rel="stylesheet">
+
+		<!-- Google Fonts Montserrat -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=B612:wght@700&display=swap" rel="stylesheet">
+
+	</head>
+	<body>
+		<!-- Landing section -->
+		<section role="landing" class="bg-image-head my-0">
+			<header class="navbar navbar-expand-sm navbar-light sticky-top" id="navbar">
+				<a href="#" class="navbar-brand" id="nav-main">XR</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarMenu">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a href="#" class="nav-link" id="nav-main">SKILLS</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link" id="nav-main">GALLERY</a>
+						</li>
+					</ul>
+				</div>
+			</header>
+
+			<!-- main section -->
+			<div class="container mt-5 py-1">
+				<div class="row justify-content-around">
+					<!-- Professional picture with name and profession -->
+					<div data-aos="fade-up" class="col-5 d-flex justify-content-end mb-3" id="pro-pic">
+						<span data-aos="zoom-in-up" class="mt-auto p-3">
+							<h1>Xhunn Anthony Raymundo</h1>
+							<h2>Full-Stack Developer</h2>
+						</span>
+					</div>
+					<!-- Description -->
+					<div data-aos="fade-down" class="col-5 d-flex justify-content-center text-justify p-5 mb-3" id="description">
+						<p data-aos="zoom-in-down">
+							A striving individual who wants to make changes and leave a mark on this world. Currently studying and continiously pursuing his dreams, pushing himself to the edge and sharpening himself. In conclusion, a visionary and a do-er.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Skills Section -->
+			<div class="container mt-5 py-1">
+				<div class="row justify-content-around">
+					<div class="col-3 d-flex p-3 justify-content-center align-items-center">
+						<img src="./assets/images/logo-html5.png"  alt="No Image found">
+						<h2>HTML 5</h2>
+					</div>
+					<div class="col-3 d-flex p-3 justify-content-center align-items-center">
+						<img src="./assets/images/logo-css3.png" alt="No Image found">
+						<h2>CSS 3</h2>
+					</div>
+					<div class="col-3 d-flex p-3 justify-content-center align-items-center">
+						<img src="./assets/images/logo-javascript.png" alt="No Image found">
+						<h2>Javascript</h2>
+					</div>
+				</div>
+				<div class="row justify-content-around">
+					<div class="col-3 d-flex p-3  justify-content-center align-items-center">
+						<h2>Bootstrap</h2>
+						<img src="./assets/images/logo-bootstrap.png" alt="No Image found">
+					</div>
+					<div class="col-3 d-flex p-3  justify-content-center align-items-center">
+						<h2>nodeJS</h2>
+						<img src="./assets/images/logo-nodejs.png" alt="No Image found">
+					</div>
+					<div class="col-3 d-flex p-3  justify-content-center align-items-center">
+						<h2>MongoDB</h2>
+						<img src="./assets/images/logo-mongodb.png" alt="No Image found">
+					</div>
+				</div>
+				<div class="row justify-content-around">
+					<div class="col-3 d-flex p-3 justify-content-center align-items-center">
+						<img src="./assets/images/logo-expressjs.png" alt="No Image found">
+						<h2>ExpressJS</h2>
+					</div>
+					<div class="col-3 d-flex p-3 justify-content-center align-items-center">
+						<img src="./assets/images/logo-react.png" alt="No Image found">
+						<h2>React</h2>
+					</div>
+					<div class="col-3 d-flex p-3 justify-content-center align-items-center">
+						<img src="./assets/images/logo-heroku.png" alt="No Image found">
+						<h2>Heroku</h2>
+					</div>
+				</div>
+				<div class="row justify-content-around">
+					<div class="col-3 d-flex p-3 justify-content-center align-items-center">
+						<h2>Git</h2>
+						<img src="./assets/images/logo-git.png" alt="No Image found">
+					</div>
+					<div class="col-3 d-flex p-3  justify-content-center align-items-center">
+						<h2>Sublime Text 3</h2>
+						<img src="./assets/images/logo-sublime-text-3.png" alt="No Image found">
+					</div>
+					<div class="col-3 d-flex p-3  justify-content-center align-items-center">
+						<h2>Postman</h2>
+						<img src="./assets/images/logo-postman.png" alt="No Image found">
+					</div>
+				</div>
+				<div class="row justify-content-around">
+					<div class="col-3 d-flex p-3 justify-content-center align-items-center">
+						<img src="./assets/images/logo-gitlab-ci-cd.png" alt="No Image found">
+						<h2>Gitlab</h2>
+					</div>
+					<div class="col-3 d-flex p-3 justify-content-center align-items-center">
+						<img src="./assets/images/logo-rest.png" alt="No Image found">
+						<h2>Rest</h2>
+					</div>
+					<div class="col-3 d-flex p-3 justify-content-center align-items-center">
+						<img src="./assets/images/logo-python.png" class="p-2" alt="No Image found">
+						<h2>Python</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Gallery Section -->
+
+		<!-- Footer Section -->
+		<ul class="nav justify-content-center fixed-bottom" id="footer">
+			<li class="nav-item">
+				<img src="" alt="">
+				<h3></h3>
+			</li>
+			<li class="nav-item">
+				<img src="" alt="">
+				<h3></h3>
+			</li>
+			<li class="nav-item">
+				<img src="" alt="">
+				<h3></h3>
+			</li>
+		</ul>
+
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<!-- Popper.js -->
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<!-- Bootstrap -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+		<!-- AOS (Animate on Scroll) -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script> // initialize AOS
+		  AOS.init();
+		</script>
+	</body>
 </html>

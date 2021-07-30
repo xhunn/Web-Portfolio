@@ -1,0 +1,103 @@
+h1, h3 {
+	font-family: 'B612', sans-serif;
+}
+
+p, h2{
+	font-family: 'Montserrat', sans-serif;
+}
+
+#nav-main {
+	font-family: 'B612', sans-serif;
+}
+
+#skills-picture {
+	max-height: 25px;
+	font-family: 'B612', sans-serif;
+	margin: 0 auto;
+}
+
+.bg-image-head{
+	background: url('../images/home.png');
+	background-repeat: round;
+	background-attachment: fixed;
+}
+
+.navbar-toggler-icon {
+	background: url('');
+}
+
+.col-3 > img {
+	width: 80px;
+}
+
+.col-3 > h2 {
+	margin: 0;
+	text-align: center;
+}
+
+.row > .col-3 {
+	margin-top: .5rem;
+	background-color: white;
+	border: 1px solid black;
+	align-items: center;
+}
+
+
+#pro-pic {
+	border: 1px solid black;
+	min-height: 300px;
+	min-width: 300px;
+	max-height: 500px;
+	background: url('../images/xhunn-professional.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+#description {
+	min-height: 300px;
+	min-width: 300px;
+	border: 1px solid black;
+	background-color: white;
+	color: black;
+}
+
+#border {
+	background-color: lightgray;
+	border: 1px solid black;
+}
+
+#navbar {
+	background-color: white;
+	border: 1px solid black;
+}
+
+#skills * {
+	width: 80px;
+}
+
+#footer {
+	background-color: white;
+	border: 1px solid black;
+}
+
+@media (min-width: 750px) {
+	#pro-pic {
+		min-width: 500px;
+		min-height: 500px;
+	}
+	#description {
+		min-width: 500px;
+		min-height: 500px;
+	}
+}
+
+@media (max-width: 750px) {
+	h1 {
+		font-size: 1.7rem;
+	}
+
+	h2 {
+		font-size: 1rem;
+	}
+}
