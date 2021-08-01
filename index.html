@@ -5,6 +5,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Xhunn Raymundo Web Portfolio</title>
 
+		<link rel="icon" href="https://img.icons8.com/material/48/000000/delete-sign--v1.png"/>
+
 		<!-- Bootstrap CDN -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
@@ -14,148 +16,248 @@
 		<!-- CSS Document -->
 		<link rel="stylesheet" href="./assets/styles/style.css">
 
-		<!-- Google Fonts B612 -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=B612:wght@700&display=swap" rel="stylesheet">
-
-		<!-- Google Fonts Montserrat -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=B612:wght@700&display=swap" rel="stylesheet">
-
 	</head>
 	<body>
-		<!-- Landing section -->
-		<section role="landing" class="bg-image-head my-0">
-			<header class="navbar navbar-expand-sm navbar-light sticky-top" id="navbar">
-				<a href="#" class="navbar-brand" id="nav-main">XR</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarMenu">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item">
-							<a href="#" class="nav-link" id="nav-main">SKILLS</a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link" id="nav-main">GALLERY</a>
-						</li>
-					</ul>
-				</div>
-			</header>
 
-			<!-- main section -->
-			<div class="container mt-5 py-1">
-				<div class="row justify-content-around">
-					<!-- Professional picture with name and profession -->
-					<div data-aos="fade-up" class="col-5 d-flex justify-content-end mb-3" id="pro-pic">
-						<span data-aos="zoom-in-up" class="mt-auto p-3">
-							<h1>Xhunn Anthony Raymundo</h1>
-							<h2>Full-Stack Developer</h2>
-						</span>
+		<!-- ============================ Navigation Bar ================================ -->
+		<header class="navbar navbar-expand-sm navbar-light sticky-top shadow-lg" id="navbar">
+			<a href="#" class="navbar-brand" id="nav-main">XR</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarMenu">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="#" class="nav-link">OVERVIEW</a>
+					</li>
+					<li class="nav-item">
+						<a href="#skills" class="nav-link">SKILLS</a>
+					</li>
+					<li class="nav-item">
+						<a href="#AboutMe" class="nav-link">ABOUT</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contact" class="nav-link">CONTACT</a>
+					</li>
+					
+				</ul>
+			</div>
+		</header>
+		<!-- ============================ Navigation Bar End ============================ -->
+
+		<!-- ============================ Landing Section =============================== -->
+		<div class="container-fluid banner">
+			<div class="row justify-content-center">
+				<div class="col-sm-10 col-md-5 ml-auto mt-5">
+					<div class="shadow-lg p-3 col-pic">
+						<img src="./assets/images/xhunn-professional.jpg" class="img-fluid">
 					</div>
-					<!-- Description -->
-					<div data-aos="fade-down" class="col-5 d-flex justify-content-center text-justify p-5 mb-3" id="description">
-						<p data-aos="zoom-in-down">
-							A striving individual who wants to make changes and leave a mark on this world. Currently studying and continiously pursuing his dreams, pushing himself to the edge and sharpening himself. In conclusion, a visionary and a do-er.
-						</p>
+				</div>
+				<div class="col-sm-10 col-md-5 mr-auto mt-5">
+					<div class="row">
+						<div class="container-fluid shadow-lg p-3">
+							<div class="container-fluid text-justified bg-text p-3">
+								<h1 class="display-2" id="xhunn">Xhunn Anthony Raymundo</h1>
+								<h1>Full-Stack Web Developer</h1>
+							</div>
+						</div>
 					</div>
+					<div class="row">
+						<div class="shadow-lg p-3">
+							<div class="container-fluid text-justified bg-text p-3">
+								<p class="lead text-justify">
+									A striving individual who wants to make changes and leave a mark on this
+									world. Currently studying and continiously pursuing his dreams, pushing
+									himself to the edge and sharpening himself. In conclusion, a visionary
+									and a do-er.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<!-- ============================ End Landing Section =========================== -->
+
+		<!-- ============================ Skill Section ================================= -->
+		<div class="container-fluid banner2">
+			<h1 class="display-1 bg-text text-center my-5" id="skills">SKILLS</h1>
+			<div class="row justify-content-center">
+				<div class="col-2 text-center align-items-center">
+					<img src="./assets/images/skill-1.png">
+				</div>
+				<div class="col-2 text-center align-items-center">
+					<img src="./assets/images/skill-2.png">
+				</div>
+				<div class="col-2 text-center align-items-center">
+					<img src="./assets/images/skill-3.png">
 				</div>
 			</div>
-
-			<!-- Skills Section -->
-			<div class="container mt-5 py-1">
-				<div class="row justify-content-around">
-					<div class="col-3 d-flex p-3 justify-content-center align-items-center">
-						<img src="./assets/images/logo-html5.png"  alt="No Image found">
-						<h2>HTML 5</h2>
-					</div>
-					<div class="col-3 d-flex p-3 justify-content-center align-items-center">
-						<img src="./assets/images/logo-css3.png" alt="No Image found">
-						<h2>CSS 3</h2>
-					</div>
-					<div class="col-3 d-flex p-3 justify-content-center align-items-center">
-						<img src="./assets/images/logo-javascript.png" alt="No Image found">
-						<h2>Javascript</h2>
-					</div>
+			<div class="row justify-content-center">
+				<div class="col-2 p-3 text-center align-items-center">
+					<img src="./assets/images/skill-4.png">
 				</div>
-				<div class="row justify-content-around">
-					<div class="col-3 d-flex p-3  justify-content-center align-items-center">
-						<h2>Bootstrap</h2>
-						<img src="./assets/images/logo-bootstrap.png" alt="No Image found">
-					</div>
-					<div class="col-3 d-flex p-3  justify-content-center align-items-center">
-						<h2>nodeJS</h2>
-						<img src="./assets/images/logo-nodejs.png" alt="No Image found">
-					</div>
-					<div class="col-3 d-flex p-3  justify-content-center align-items-center">
-						<h2>MongoDB</h2>
-						<img src="./assets/images/logo-mongodb.png" alt="No Image found">
-					</div>
+				<div class="col-2 p-3 text-center align-items-center">
+					<img src="./assets/images/skill-5.png">
 				</div>
-				<div class="row justify-content-around">
-					<div class="col-3 d-flex p-3 justify-content-center align-items-center">
-						<img src="./assets/images/logo-expressjs.png" alt="No Image found">
-						<h2>ExpressJS</h2>
-					</div>
-					<div class="col-3 d-flex p-3 justify-content-center align-items-center">
-						<img src="./assets/images/logo-react.png" alt="No Image found">
-						<h2>React</h2>
-					</div>
-					<div class="col-3 d-flex p-3 justify-content-center align-items-center">
-						<img src="./assets/images/logo-heroku.png" alt="No Image found">
-						<h2>Heroku</h2>
-					</div>
-				</div>
-				<div class="row justify-content-around">
-					<div class="col-3 d-flex p-3 justify-content-center align-items-center">
-						<h2>Git</h2>
-						<img src="./assets/images/logo-git.png" alt="No Image found">
-					</div>
-					<div class="col-3 d-flex p-3  justify-content-center align-items-center">
-						<h2>Sublime Text 3</h2>
-						<img src="./assets/images/logo-sublime-text-3.png" alt="No Image found">
-					</div>
-					<div class="col-3 d-flex p-3  justify-content-center align-items-center">
-						<h2>Postman</h2>
-						<img src="./assets/images/logo-postman.png" alt="No Image found">
-					</div>
-				</div>
-				<div class="row justify-content-around">
-					<div class="col-3 d-flex p-3 justify-content-center align-items-center">
-						<img src="./assets/images/logo-gitlab-ci-cd.png" alt="No Image found">
-						<h2>Gitlab</h2>
-					</div>
-					<div class="col-3 d-flex p-3 justify-content-center align-items-center">
-						<img src="./assets/images/logo-rest.png" alt="No Image found">
-						<h2>Rest</h2>
-					</div>
-					<div class="col-3 d-flex p-3 justify-content-center align-items-center">
-						<img src="./assets/images/logo-python.png" class="p-2" alt="No Image found">
-						<h2>Python</h2>
-					</div>
+				<div class="col-2 p-3 text-center align-items-center">
+					<img src="./assets/images/skill-6.png">
 				</div>
 			</div>
-		</section>
+			<div class="row justify-content-center">
+				<div class="col-2 p-3 text-center align-items-center">
+					<img src="./assets/images/skill-7.png">
+				</div>
+				<div class="col-2 p-3 text-center align-items-center">
+					<img src="./assets/images/skill-8.png">
+				</div>
+				<div class="col-2 p-3 text-center align-items-center">
+					<img src="./assets/images/skill-9.png">
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-2 p-3 text-center align-items-center">
+					<img src="./assets/images/skill-10.png">
+				</div>
+				<div class="col-2 p-3 text-center align-items-center">
+					<img src="./assets/images/skill-11.png">
+				</div>
+				<div class="col-2 p-3 text-center align-items-center">
+					<img src="./assets/images/skill-12.png">
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-2 p-3 text-center align-items-center">
+					<img src="./assets/images/skill-13.png">
+				</div>
+				<div class="col-2 p-3 text-center align-items-center">
+					<img src="./assets/images/skill-14.png">
+				</div>
+				<div class="col-2 p-3 text-center align-items-center">
+					<img src="./assets/images/skill-15.png">
+				</div>
+			</div>
+		</div>
+		<!-- ============================ End Skill Section ============================= -->
+		
+		<!-- ============================ About Me Section ============================== -->
+		<div class="container-fluid banner3">
+			<h1 class="display-1 bg-text text-center my-5" id="AboutMe">ABOUT ME</h1>
+			<div id="about-me" class="carousel slide p-1 about-carousel bg-dark shadow-lg" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#about-me" data-slide-to="0" class="active"></li>
+					<li data-target="#about-me" data-slide-to="1"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="./assets/images/school.jpg" class="d-block w-100">
+						<div class="carousel-caption d-none d-md-block">
+							<h1>San Beda College Alabang</h1>
+							<p class="lead">2007 - 2020 Senior Highschool Graduate</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="./assets/images/work1.jpg" class="d-block w-100">
+						<div class="carousel-caption d-none d-md-block">
+							<h1>Teleperformance</h1>
+							<p>2020 - Present Customer Service Advocate</p>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#about-me" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#about-me" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+			<div class="row justify-content-around p-3">
+				<div class="col-sm-10 col-md-5 text-justify border border-dark p-3 shadow-lg mt-3">
+					<h2 class="text-left alter-head">San Beda College Alabang</h2>
+					<h3 class="text-left">2007 - 2020</h3>
+					<p class="lead mt-4">
+						The school that I attended, which molded my values and strengths to become
+						a hard working individual. In addition, my love for mathematics and 
+						programming was heightened here.
+					</p>
+					<p class="lead">
+						Some projects that was made for School (unfinished and finished) can be seen 
+						on my <a class="badge badge-light" href="https://github.com/xhunn"><img src="https://img.icons8.com/material-outlined/24/000000/github.png" /> GitHub</a>
+					</p>
+				</div>
+				<div class="col-sm-10 col-md-5 text-justify border border-dark p-3 shadow-lg mt-3">
+					<h2 class="text-right alter-head">Teleperformance</h2>
+					<h3 class="text-right">2020 - Present</h3>
+					<p class="lead mt-4">
+						Working as a customer service representative which helped
+						me grow as an individual emotionally that improved my stress management significantly. 
+						Furthermore, im ready to return back to my forte and jump back into programming and coding.
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- ============================ End About Me Section ========================== -->
 
-		<!-- Gallery Section -->
+		<!-- ============================ Contact Section =============================== -->
+		<div class="container-fluid banner4">
+			<h1 class="display-1 bg-text text-center my-5" id="contact">CONTACT</h1>
+			<form>
+				<div class="row justify-content-around p-2">
+					<div class="col-sm-10 col-md-5">
+						<div class="form-group">
+							<label for="name">Name: </label>
+							<input type="text" class="form-control" name="name" id="name" placeholder="Insert your name here">
+						</div>
+					</div>
+					<div class="col-sm-10 col-md-5">
+						<div class="form-group">
+							<label for="email">Email: </label>
+							<input type="email" class="form-control" name="email" id="email" placeholder="Insert your email here">
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-around p-2">
+					<div class="col-sm-10 col-md-11">
+						<div class="form-group">
+							<label for="message">Leave a note: </label>
+							<textarea name="message" class="form-control" id="message" rows="3" placeholder="Optional"></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center p-2">
+					<div class="col-sm-12 col-md-2">
+						<button type="submit" class="container-fluid btn btn-dark">Submit</button>
+					</div>
+				</div>
+			</form>
+		</div>
+		<!-- ============================ End Contact Section =========================== -->
 
-		<!-- Footer Section -->
-		<ul class="nav justify-content-center fixed-bottom" id="footer">
-			<li class="nav-item">
-				<img src="" alt="">
-				<h3></h3>
-			</li>
-			<li class="nav-item">
-				<img src="" alt="">
-				<h3></h3>
-			</li>
-			<li class="nav-item">
-				<img src="" alt="">
-				<h3></h3>
-			</li>
-		</ul>
+		<!-- ============================ Footer Section ================================ -->
+		<footer class="container-fluid banner5 text-white mt-5">
+			<div class="d-flex justify-content-center pt-4">
+				<p class="lead">Let's Connect!</p>
+			</div>
+			<div class="d-flex pt-1 justify-content-center">
+				<a href="https://mobile.twitter.com/xhunnr" class="px-3"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/twitter.png" /></a>
+				<a href="https://www.linkedin.com/in/xhunn/" class="px-3"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/linkedin--v1.png" /></a>
+				<a href="https://github.com/xhunn" class="px-3"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" /></a>	
+			</div>
+			<div class="row pt-3 justify-content-center">
+				<p class="px-5 connect-with"><img src="https://img.icons8.com/ios-filled/30/ffffff/apple-phone.png" /> (+639) 27258 6350</p>
+				<p class="px-5 connect-with"><img src="https://img.icons8.com/ios-filled/30/ffffff/mail.png" /> xhunnworks@gmail.com</p>
+				<p class="px-5 connect-with"><img src="https://img.icons8.com/ios-filled/30/ffffff/discord.png" /> Xhunn#2001</p>
+			</div>
+			<div class="d-flex justify-content-center pb-1">
+				<div class="col-11 text-center border-top copyright">
+					<p class="footer-copyright-text">Copyright &copy; 2021 <em class="xr">XR</em>. All Rights Reserved</p>
+				</div>
+			</div>
+		</footer>
+		<!-- ============================ End Footer Section ============================ -->
+
 
 		<!-- jQuery -->
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
