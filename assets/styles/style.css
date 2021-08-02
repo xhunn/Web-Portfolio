@@ -162,6 +162,9 @@ h1, h2, h3 {
 	.display-1, .display-2, .display-3, .display-4 {
 		font-size: 3rem;
 	}
+	.banner3 {
+		margin-top: 5rem;
+	}
 }
 
 @media (max-width: 1024px) {
@@ -228,7 +231,7 @@ h1, h2, h3 {
 	}
 }
 
-@media (min-width:1025px) and (max-height: 850px) {
+@media (min-width:1025px) and (max-height: 900px) {
 	.banner3 {
 		margin-top: 20rem;
 	}
