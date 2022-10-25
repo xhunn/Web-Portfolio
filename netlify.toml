@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "*"
+  to = "https://github.com/xhunn"
+  status = 200
+  force = true
